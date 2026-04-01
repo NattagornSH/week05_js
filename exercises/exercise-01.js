@@ -12,3 +12,10 @@ if (stockStatus = "available") {
 }
 
 // Fix:
+const stockStatus = "available";
+
+if (stockStatus === "available") {
+  console.log("In stock");
+} else {
+  console.log("Out of stock");
+}
