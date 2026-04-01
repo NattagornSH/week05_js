@@ -14,3 +14,12 @@ if (cartTotal > 1000) {
 }
 
 // Fix:
+
+const cartTotal = 1000;
+
+if (cartTotal >= 1000) {
+  console.log("Free shipping unlocked!");
+} else {
+  console.log("Add more items for free shipping.");
+}
+
