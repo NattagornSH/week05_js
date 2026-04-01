@@ -12,7 +12,7 @@ if (isLoggedIn) {
 }
 */
 
-// Fix:
+// Fix: ต้องเพิ่มส่วน else เพื่อให้เมื่อ isLoggedIn เป็น false จะได้ log ข้อความ "Please log in first." แทนที่จะไม่ log อะไรเลย
 const isLoggedIn = false;
 
 if (isLoggedIn) {

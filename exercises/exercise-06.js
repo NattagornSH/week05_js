@@ -7,7 +7,7 @@
 
 const stock = 0;
 
-const buttonLabel = stock > 0 ? "Out of Stock" : "Add to Cart";
+const buttonLabel = stock <= 0 ? "Out of Stock" : "Add to Cart";
 console.log(buttonLabel);
 
-// Fix:
+// Fix:ต้องเปลี่ยนจาก stock > 0 เป็น stock <= 0 เพื่อให้ตรงกับเงื่อนไขที่กำหนดในโจทย์

@@ -14,7 +14,7 @@ if (cartTotal > 1000) {
   console.log("Add more items for free shipping.");
 }
 */
-// Fix:
+// Fix: ต้องเปลี่ยนจาก cartTotal > 1000 เป็น cartTotal >= 1000 เพื่อให้ตรงกับเงื่อนไขที่กำหนดในโจทย์ คือ ลูกค้าที่มีมูลค่าในตะกร้าเท่ากับ 1000 จะได้รับการจัดส่งฟรีด้วยเช่นกัน
 
 const cartTotal = 1000;
 

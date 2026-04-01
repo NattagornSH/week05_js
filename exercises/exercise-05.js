@@ -8,7 +8,7 @@ const isOnSale = true;
 const salePrice = 29.99;
 const originalPrice = 49.99;
 
-const displayPrice = isOnSale ? salePrice originalPrice;
+const displayPrice = isOnSale ? salePrice :originalPrice;
 console.log("Price: $" + displayPrice);
 
-// Fix:
+// Fix: ต้องเพิ่มเครื่องหมาย ":" หลัง salePrice เพื่อให้เป็นรูปแบบของ ternary operator ที่ถูกต้อง คือ condition ? valueIfTrue : valueIfFalse

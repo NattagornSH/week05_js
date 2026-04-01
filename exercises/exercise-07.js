@@ -16,5 +16,7 @@ if (orderStatus === "processing") {
 } else if (orderStatus === "delivered") {
   console.log("Your order has been delivered.");
 }
-
-// Fix:
+else{
+  console.log("Status unknown. Please contact support.");
+}
+// Fix:  ต้องเพิ่มส่วน else เพื่อให้เมื่อ orderStatus เป็น "cancelled" จะได้ log ข้อความ "Status unknown. Please contact support." แทนที่จะไม่ log อะไรเลย

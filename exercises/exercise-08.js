@@ -4,6 +4,7 @@
 //       expression that assigns the value to shippingLabel.
 // Hint: you only need one line to replace the entire if...else block.
 
+/*
 const cartTotal = 1200;
 let shippingLabel;
 
@@ -14,5 +15,10 @@ if (cartTotal >= 1000) {
 }
 
 console.log("Shipping: " + shippingLabel);
+*/
 
-// Refactor:
+// Refactor: 
+const cartTotal = 1200;
+const shippingLabel = cartTotal >= 1000 ? "FREE" : "$9.99";
+console.log("Shipping: " + shippingLabel);
+
