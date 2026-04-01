@@ -5,6 +5,7 @@
 // A non-member with a cart of 600 should get the discount, but currently they don't.
 // Find and fix the bug.
 
+/*
 const isMember = false;
 const cartTotal = 600;
 
@@ -13,5 +14,14 @@ if (isMember && cartTotal > 500) {
 } else {
   console.log("No discount available.");
 }
+*/
 
 // Fix:
+const isMember = false;
+const cartTotal = 600;
+
+if (isMember|| cartTotal > 500) {
+  console.log("Discount applied!");
+} else {
+  console.log("No discount available.");
+}

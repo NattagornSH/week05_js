@@ -5,6 +5,7 @@
 // A customer with exactly 1000 in their cart should get free shipping,
 // but currently they don't. Find and fix the bug.
 
+/*
 const cartTotal = 1000;
 
 if (cartTotal > 1000) {
@@ -12,7 +13,7 @@ if (cartTotal > 1000) {
 } else {
   console.log("Add more items for free shipping.");
 }
-
+*/
 // Fix:
 
 const cartTotal = 1000;

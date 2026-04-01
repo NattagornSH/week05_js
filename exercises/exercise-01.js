@@ -3,6 +3,7 @@
 // GOAL: Log "In stock" if stockStatus is "available", otherwise log "Out of stock".
 // There is one bug on the if condition line. Find and fix it.
 
+/*
 const stockStatus = "available";
 
 if (stockStatus = "available") {
@@ -10,6 +11,7 @@ if (stockStatus = "available") {
 } else {
   console.log("Out of stock");
 }
+*/
 
 // Fix:
 const stockStatus = "available";
